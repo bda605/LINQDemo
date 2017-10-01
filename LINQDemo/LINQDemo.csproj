@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A4C1693-BB04-457C-B3CC-13DF019455EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LINQDemo</RootNamespace>
+    <AssemblyName>LINQDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LINQ11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ11.Designer.cs">
+      <DependentUpon>LINQ11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ12.Designer.cs">
+      <DependentUpon>LINQ12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ21.Designer.cs">
+      <DependentUpon>LINQ21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ23.Designer.cs">
+      <DependentUpon>LINQ23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ25.Designer.cs">
+      <DependentUpon>LINQ25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ26.Designer.cs">
+      <DependentUpon>LINQ26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ27.Designer.cs">
+      <DependentUpon>LINQ27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ28.Designer.cs">
+      <DependentUpon>LINQ28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ29.Designer.cs">
+      <DependentUpon>LINQ29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ2A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ2A.Designer.cs">
+      <DependentUpon>LINQ2A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ2B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ2B.Designer.cs">
+      <DependentUpon>LINQ2B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ2C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ2C.Designer.cs">
+      <DependentUpon>LINQ2C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ2D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ2D.Designer.cs">
+      <DependentUpon>LINQ2D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ30.Designer.cs">
+      <DependentUpon>LINQ30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ31.Designer.cs">
+      <DependentUpon>LINQ31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ32.Designer.cs">
+      <DependentUpon>LINQ32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ33.Designer.cs">
+      <DependentUpon>LINQ33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ34.Designer.cs">
+      <DependentUpon>LINQ34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ35.Designer.cs">
+      <DependentUpon>LINQ35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ36.Designer.cs">
+      <DependentUpon>LINQ36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ37.Designer.cs">
+      <DependentUpon>LINQ37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ38.Designer.cs">
+      <DependentUpon>LINQ38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LINQ39.Designer.cs">
+      <DependentUpon>LINQ39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LINQ11.resx">
+      <DependentUpon>LINQ11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ12.resx">
+      <DependentUpon>LINQ12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ21.resx">
+      <DependentUpon>LINQ21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ23.resx">
+      <DependentUpon>LINQ23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ25.resx">
+      <DependentUpon>LINQ25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ26.resx">
+      <DependentUpon>LINQ26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ27.resx">
+      <DependentUpon>LINQ27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ28.resx">
+      <DependentUpon>LINQ28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ29.resx">
+      <DependentUpon>LINQ29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ2A.resx">
+      <DependentUpon>LINQ2A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ2B.resx">
+      <DependentUpon>LINQ2B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ2C.resx">
+      <DependentUpon>LINQ2C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ2D.resx">
+      <DependentUpon>LINQ2D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ30.resx">
+      <DependentUpon>LINQ30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ31.resx">
+      <DependentUpon>LINQ31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ32.resx">
+      <DependentUpon>LINQ32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ33.resx">
+      <DependentUpon>LINQ33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ34.resx">
+      <DependentUpon>LINQ34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ35.resx">
+      <DependentUpon>LINQ35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ36.resx">
+      <DependentUpon>LINQ36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ37.resx">
+      <DependentUpon>LINQ37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ38.resx">
+      <DependentUpon>LINQ38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LINQ39.resx">
+      <DependentUpon>LINQ39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
